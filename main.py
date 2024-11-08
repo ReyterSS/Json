@@ -6,6 +6,7 @@ def load_data(filename):
     with open(filename, 'r', encoding='UTF-8') as f:
         return json.load(f)
 
+
 # function to get minimum price and type of room
 def find_min_price(prices):
     min_value = float('inf')
